@@ -6,30 +6,37 @@
     <title>beranda</title>
    
     <link rel="stylesheet" href="beranda.css">
-    <link href="https://fonts.googleapis.com/css2?family
-    Poppins:wght@400;500;600&dispaly=swap"
-    rel="stylesheet" />
+   
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-
-        <label class="logo">
-           Alifian
-            <i class="fa fa-braille" aria-hidden="true"></i>
-        Maulana</label>
-
+        <div class="">
+          <img src="img/my-avatar.png" alt="my-avatar" />
+        </div>
         <ul>
-            <li><a href="Beranda.html">Beranda</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="alifianmaulana.html">Sosme</a></li>
+        <div id="menu-icon" class="menu-icon">
+          <i class="ph-fill ph-list"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
+          <li>
+            <a href="Beranda.html">Home</a>
+          </li>
+          <li>
+            <a href="alifianmaulana.html">Sosmed</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
         </ul>
-    </nav>
-
-    <section></section>
+      </nav>
+     
 
     <div class="container">
         <h1 id="current-time"> 12:00:00</h1>
@@ -45,5 +52,6 @@
             time.innerHTML = d.toLocaleTimeString();
         }, 1000);
     </script>
+     <script src="script.js"></script>
 </body>
 </html>
