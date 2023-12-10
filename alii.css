@@ -9,7 +9,7 @@ body{
 }
 
 nav {
-  background-image: linear-gradient(to bottom right, rgba(173, 12, 12, 0.986), rgb(34, 7, 131), rgb(182, 11, 91));
+  background-image: linear-gradient(to bottom right, rgba(173, 12, 12, 0.986), rgb(127, 7, 131), rgb(182, 11, 91));
   display: flex;
   justify-content: space-between;
   height: auto;
